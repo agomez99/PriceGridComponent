@@ -1,79 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
-.card{
-  width:50rem;
+
+.card {
+  width: 42rem;
 }
+
 body {
   margin: 0;
   font-family: 'Karla', sans-serif;
   color: black;
+  background-color: rgb(230, 239, 246)
 }
+
 .container-fluid{
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(230, 239, 246)
-
 }
+
 main {
   padding: 1rem;
-}
-.header-body{
-  color:hsl(218, 22%, 67%);
-
+  background-color: rgb(230, 239, 246)
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 1.5rem;
+.header-body {
+  color: hsl(218, 22%, 67%);
+
 }
 
 .header {
   color: hsl(179, 62%, 43%);
+  font-size: 1.7rem;
+  margin-top: 5%;
 }
+
 .sub-header {
   color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.2rem;
 }
+
 .top-section {
-  height: 15rem;
-  padding:5%;
+  height: 17rem;
+  padding: 5% 5% 5% 5%;
 
 }
 
+.bottom-header {
+  font-size: 1.2rem;
+}
+
+.bottom-body {
+  font-size:16px;
+  font-weight: 400;
+}
 
 .bottom-left {
   background-color: rgb(43, 179, 177);
-  color:  hsl(204, 43%, 93%);
-  height: 20rem;
-  width:100%;
-  padding:10%;
+  color: hsl(204, 43%, 93%);
+  height: 17rem;
+  width: 100%;
+  padding: 10%;
   align-content: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.dollar {
+  display: flex;
+  vertical-align: middle;
 
 }
-.dollar-amount{
-  font-size: 2rem;
-  font-weight: 700;
+
+.dollar-amount {
+  font-size: 30px;
+  font-weight: 400;
 }
-.per-month{
-  color:rgb(74, 190, 189);
+
+.per-month {
+  color: rgb(94, 238, 236);
+  margin-top: 10px;
+  margin-left: 10px;
+
 }
+
 .bottom-right {
-  background-color:  rgb(74, 190, 189);
-  color:  hsl(204, 43%, 93%);
-  height: 20rem;
-  width:100%;
-  padding:10% 20%;
-
+  background-color: rgb(74, 190, 189);
+  color: hsl(204, 43%, 93%);
+  height: 17rem;
+  width: 100%;
+  padding: 10% 30% 10% 10%;
+  font-family: 'Karla', sans-serif;
 
 }
+
 .signup-btn {
   background-color: hsl(71, 73%, 54%);
   color: white;
-  width: 100%;
+  width: 90%;
   height: 50px;
   border-radius: 5px;
-  border:none;
+  border: none;
+  margin-top: 5%;
 }
